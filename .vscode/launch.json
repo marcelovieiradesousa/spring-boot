@@ -1,0 +1,14 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Spring Boot-JejumApplication<jejum>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "mcl.studies.jejum.JejumApplication",
+      "projectName": "jejum",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    }
+  ]
+}
