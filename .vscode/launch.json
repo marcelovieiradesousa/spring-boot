@@ -2,6 +2,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch JejumApplication",
+      "request": "launch",
+      "mainClass": "mcl.studies.jejum.JejumApplication",
+      "projectName": "springBoot"
+    },
+    {
+      "type": "java",
+      "name": "Launch WebApplication",
+      "request": "launch",
+      "mainClass": "mcl.front.web.WebApplication",
+      "projectName": ""
+    },
+    {
+      "type": "java",
       "name": "Spring Boot-JejumApplication<jejum>",
       "request": "launch",
       "cwd": "${workspaceFolder}",
