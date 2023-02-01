@@ -26,12 +26,12 @@ public class UsuarioController {
     public void update(@RequestBody Usuario user){
         repository.save(user);
     }
-    @GetMapping("/users/{username}")
-    public Usuario find(@PathVariable("/username") String username){
+    @GetMapping("{username}")
+    public Usuario find(@PathVariable("username") String username){
         return repository.findByUsername(username);
     }
-    @DeleteMapping("/users/{id}")
-    public void delete(@PathVariable("/id") Integer id){
+    @DeleteMapping("/delete/{id}")
+    public void delete(@PathVariable("id") Integer id){
         repository.deleteById(id);
     }
 }
